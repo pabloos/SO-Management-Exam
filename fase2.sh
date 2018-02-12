@@ -2,7 +2,7 @@
 
 marca=$(cat mark1)
 
-if [ -d mark1 ] && [ $marca -eq 1 ]; then
+if [ $marca -eq 1 ]; then
     echo "añade los parametros necesarios al archivo /etc/fstab"
     sleep 5
     sudo vim /etc/fstab
