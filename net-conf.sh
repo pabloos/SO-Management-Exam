@@ -5,7 +5,7 @@ read -p "Introduce el nombre del dominio: " DOMAIN
 
 echo "configurando la red..."
 
-sudo mv /etc/network/interfaces /etc/network/interfaces.old && sudo echo interfaces > /etc/network/interfaces
+sudo mv /etc/network/interfaces /etc/network/interfaces.old && sudo cat interfaces > /etc/network/interfaces
 
 echo "dns-search $HOSTNAME.$DOMAIN" >> /etc/network/interfaces
 
