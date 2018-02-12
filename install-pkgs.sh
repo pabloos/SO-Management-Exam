@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt-get update
+
 sudo apt-get install attr build-essential libacl1-dev \
 libattr1-dev libblkid-dev libgnutls-dev libreadline-dev \
 python-dev libpam0g-dev python-dnspython gdb pkg-config \

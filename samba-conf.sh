@@ -11,9 +11,3 @@ echo "ahora quita el servidor dns 8.8.8.8 del interfaces"
 sleep 5
 
 sudo vim /etc/network/interfaces
-
-echo "reiniciando para aplicar..."
-
-sleep 2
-
-sudo reboot
