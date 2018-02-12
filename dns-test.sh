@@ -7,4 +7,4 @@ host -t SRV _ldap._tcp.$DOMINIO
 
 host -t SRV _kerberos._udp.$DOMINIO
 
-host -t A $HOSTNAME.$DOMINIO`
+host -t A $HOSTNAME.$DOMINIO
