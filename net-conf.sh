@@ -10,3 +10,5 @@ sudo mv /etc/network/interfaces /etc/network/interfaces.old && sudo cat interfac
 echo "dns-search $HOSTNAME.$DOMAIN" >> /etc/network/interfaces
 
 sudo service networking restart
+
+sudo reboot

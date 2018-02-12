@@ -1,4 +1,4 @@
-#!S/bin/bash
+#!/bin/bash
 
 sudo apt-get install attr build-essential libacl1-dev \
 libattr1-dev libblkid-dev libgnutls-dev libreadline-dev \
